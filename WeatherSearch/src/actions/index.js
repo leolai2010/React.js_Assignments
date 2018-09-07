@@ -12,7 +12,7 @@ export function fetchWeather(city) {
     console.log('Request:', request);
     //AJAX Request to GET a Promise to payload
     return {
-        type: FETCH_WEATHER, //
+        type: FETCH_WEATHER, 
         payload: request
     };
 }
